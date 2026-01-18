@@ -7,11 +7,11 @@ public class odd_series_calc_using_while
             int a,b;
             while(true)
             {
-                System.out.println("hello");
-                System.out.println("welcome to odd series calc");
-                System.out.println("type starting value");
+                System.out.println("Hello");
+                System.out.println("Welcome to Odd Series Calculator");
+                System.out.println("Type Starting Value");
                 a=read.nextInt();
-                System.out.println("type ending value");
+                System.out.println("Type Ending Value");
                 b=read.nextInt();
                 System.out.println("Values are");
                     if (a%2==0)
@@ -23,10 +23,11 @@ public class odd_series_calc_using_while
                             System.out.println(a);
                             a=a+2;
                         }
-                    System.out.println("thanks");
-                    System.out.println("bye");
+                    System.out.println("Thank you");
+                    System.out.println("Bye");
                     System.out.println(".");
                 }
         }
     }
+
 }
