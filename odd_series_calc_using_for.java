@@ -14,13 +14,27 @@ public class odd_series_calc_using_for
                 System.out.println("Type Ending Value");
                 b=read.nextInt();
                 System.out.println("Values are");
-                    if (a%2==0)
+                    if (a<b)
                     {
-                        a++;
+                        if (a%2==0)
+                        {
+                            a++;
+                        }
+                        for(int i=a; i<=b; i=i+2)
+                        {
+                            System.out.println(i);
+                        }
                     }
-                    for(int i=a; i<=b; i=i+2)
+                    else if (a>b)
                     {
-                        System.out.println(i);
+                        if (a%2==0)
+                        {
+                            a--;
+                        }
+                        for(int i=a; i>=b; i=i-2)
+                        {
+                            System.out.println(i);
+                        }
                     }
                     System.out.println("Thank you");
                     System.out.println("Bye");
@@ -30,3 +44,4 @@ public class odd_series_calc_using_for
     }
 
 }
+
